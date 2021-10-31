@@ -1,5 +1,7 @@
-  FROM php:7.4-fpm
+FROM php:7.4-fpm
 
+LABEL author="mcattawayjr@gmail.com"
+LABEL repository="value"
 # persistent dependencies
 RUN set -eux; \
 	apt-get update; \
